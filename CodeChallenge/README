@@ -1,0 +1,36 @@
+To run the automation..
+
+1. Download (if haven't already) PyCharm, which was the IDE I used to code and run the automation.
+
+2. Download Python 3.8 as the project interpreter (if haven't already) in order to access and
+   run the code with Python. Python 3.8 can be downloaded from python.org under "Downloads".
+
+   During installation, I added Python 3.8 to path, selected to perform a 'customize installation'
+   I also selected and checked all optional features and advanced options.
+
+3. Copy or import the project "CodeChallenge" to the IDE
+
+4. (If haven't already) Install the Selenium browser automation package on the IDE from File -> Settings
+   -> Project: CodeChallenge -> Project Interpreter. From there, press the '+' and a new window should
+   show. Then type in "Selenium" and install the package. Selenium is the browser automation
+   technology I used to automate the Allegiant Air site. The package came with the libraries I used
+   for the code.
+
+   Alternative way to install Selenium: Go to the Terminal on the IDE and type in:
+                'sudo pip install Selenium' or 'sudo pip3 install Selenium'
+
+5. (If haven't already) Download the Chrome web driver for Selenium in order to automate the code on a browser, I used
+   Google Chrome as the browser to automate in. The link for the download: https://sites.google.com/a/chromium.org/chromedriver/
+   I downloaded the 'latest stable release' -> then download chromedriver_win32.zip
+   Unzip the file to get to chromedriver.exe
+
+   chromedriver.exe is also located in my Github, under the folder: chromedriver_win32
+
+6. (If haven't already) Finally, in order to run the code and automate the website, go to 'Add Configuration'
+   on the top-right of the IDE. Then press the '+' and select Python. For the script path, choose the location of the
+   code itself (.py file) which should be under the project file ('CodeChallenge' is the project file).
+   Project interpreter should be Python 3.8 or choose the default setting. Then hit 'OK'.
+
+
+   The code should now be runnable and the Allegiant Air website is now ready for automation.
+        (Click on the run and debug symbols on the top-right of IDE to run automation)
