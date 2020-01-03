@@ -73,7 +73,7 @@ time.sleep(2)
 # Some variables for flight prices
 dollar_sign = "$"
 departing_price = 73.00
-returning_price = 80.00
+returning_price = 73.00
 
 wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@id='flights']/div[6]/div[3]/button")))
 time.sleep(2)
